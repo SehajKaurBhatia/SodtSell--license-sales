@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { motion, useAnimation } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { FaCheck } from "react-icons/fa";
 
 const Service = () => {
