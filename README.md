@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+SoftSell is a dynamic web platform that allows users to easily buy and sell software licenses. Whether you're a vendor looking to sell licenses or a customer searching for licensed software, SoftSell provides a seamless and secure way to facilitate transactions.
 
-## Getting Started
+Features
+License Marketplace: Users can list their software licenses for sale and browse available licenses for purchase.
 
-First, run the development server:
+User-Friendly Navigation: A clean and intuitive interface ensures users can easily navigate between pages such as Services, Reviews, and Contact.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Responsive Design: The website is fully responsive, ensuring a smooth experience across all devices, including desktops, tablets, and smartphones.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Technologies Used
+Frontend: Built using Next.js (React-based framework), with TypeScript for type safety and scalability.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Styling: Tailwind CSS for utility-first styling, making it easy to customize and scale.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+WebChat Integration: Botpress for real-time chatbot support.
 
-## Learn More
+State Management: React's useState hook for managing UI state and responsiveness.
 
-To learn more about Next.js, take a look at the following resources:
+Deployment: The website is optimized for deployment on platforms like Vercel for fast and reliable hosting.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Features List
+Home: Introduction to SoftSell and what it offers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Services: List of services provided by the platform, including selling and purchasing software licenses.
 
-## Deploy on Vercel
+About: Information about the company and its mission.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Reviews: Customer feedback and experiences with SoftSell.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Contact: Contact information and form for inquiries.
