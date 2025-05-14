@@ -5,11 +5,7 @@ License Marketplace: Users can list their software licenses for sale and browse 
 
 User-Friendly Navigation: A clean and intuitive interface ensures users can easily navigate between pages such as Services, Reviews, and Contact.
 
-Dark Mode Support: Toggle between light and dark themes to enhance the visual experience.
-
 Responsive Design: The website is fully responsive, ensuring a smooth experience across all devices, including desktops, tablets, and smartphones.
-
-Real-Time WebChat: Integrated Botpress web chat feature for instant support and engagement.
 
 Technologies Used
 Frontend: Built using Next.js (React-based framework), with TypeScript for type safety and scalability.
