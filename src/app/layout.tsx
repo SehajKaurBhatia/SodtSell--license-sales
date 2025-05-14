@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./components/Navbar";
 import "./globals.css";
+
+
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,10 +27,25 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <style>
+          {`
+            #webchat iframe {
+              width: 100% !important;
+              height: 100% !important;
+              border: none;
+              border-radius: 12px;
+              box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+            }
+          `}
+        </style>
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar/>
         {children}
+     {/* <BotpressChat/> */}
       </body>
     </html>
   );
