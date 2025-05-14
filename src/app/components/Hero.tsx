@@ -2,6 +2,7 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 const Hero = () => {
   const [isMobile, setIsMobile] = useState(false);
 
@@ -16,14 +17,14 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="flex flex-col  ">
+    <div className="flex flex-col  " >
             
        
     <div className='grid place-items-center gap-5 mt-10'>
         <h1 className='font-bold text-[#CD4631] text-[46px]'>Turn Your Unused Software Licenses Into Cash</h1>
         <p className='text-[25px] text-[#bd835c]'>Sell your surplus licenses quickly and easily.</p>
-        <button className=' bg-[#CD4631] p-2 rounded-[10px] text-[#F8F2DC] font-medium hover:bg-[#9E6240] transition duration-200 cursor-pointer'>Sell My Licenses</button>
-        
+      <Link href="#Services"> <button className=' bg-[#CD4631] p-2 rounded-[10px] text-[#F8F2DC] font-medium hover:bg-[#9E6240] transition duration-200 cursor-pointer'>Sell My Licenses</button>
+        </Link>
         </div>
         <div className="bg-[url('/icons/bkg.png')] py-10 h-[385px]">
         <motion.div

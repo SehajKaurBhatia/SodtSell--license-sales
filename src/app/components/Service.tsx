@@ -29,7 +29,7 @@ const Service = () => {
 
   return (
     <>
-    <div className='grid place-items-center gap-5'>
+    <div className='grid place-items-center gap-5' id="Services">
         <p className='font-bold text-[#CD4631] text-[35px]'>How It Works</p>
         <div className='w-full p-5 bg-[#f6e8ca]'>
         <div className=' flex justify-around md:gap-50 sm: gap-5'>

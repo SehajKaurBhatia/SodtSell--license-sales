@@ -21,7 +21,7 @@ export default function ContactPage() {
   }
 
   return (
-    <div className="min-h-screen bg-[url('/icons/bkg.png')] flex items-center justify-center px-4 py-10">
+    <div className="min-h-screen bg-[url('/icons/bkg.png')] flex items-center justify-center px-4 py-10" id="Contact">
       <div className="w-full max-w-2xl bg-[#f6efce] rounded-2xl shadow-xl p-8">
         <h1 className="text-5xl font-bold text-center text-[#CD4631] mb-6">Contact Us</h1>
         <form className="space-y-5" onSubmit={handleSubmit}>

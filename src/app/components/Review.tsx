@@ -6,7 +6,7 @@ import { FaRegCheckCircle } from "react-icons/fa";
 import { RiCustomerService2Fill } from "react-icons/ri";
 const Review = () => {
   return (
-    <div className='grid place-content-center '>
+    <div className='grid place-content-center ' id="Reviews">
         <div className='md:w-full sm: w-screen'><p className='place-self-center text-[#CD4631] text-[45px] font-bold'>Why Choose Us</p>
     <div className='flex md:justify-around sm: justify-center self-center mt-10  md:gap-0 sm: gap-1'>
    <div className='flex flex-col gap-3 place-items-center bg-[#f6e8ca] shadow-xl md:p-5 sm: p-1'><FaTags className='md:w-[60px] md:h-[60px] ' /><p className='place-self-center  sm: text-[12px]'>Best Prices</p></div>
